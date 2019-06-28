@@ -1,0 +1,35 @@
+#Prueba1{
+    background-image: url("PhotoMain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: #ffffff;*/
+    height:800px;
+    padding-right: 0px;
+    padding-left: 0px;
+    
+
+}
+
+#Prueba2{
+    
+    
+    
+    
+    height: 100%; 
+    width: 50%; 
+    background-color: #f1601c; 
+    float: left;
+
+    
+}
+#Prueba3{
+    background-color: #ffffff;
+    height:100%;
+    
+
+}
+
+#Prueba4{
+    background-color: #1c31f3;
+    height:245px;
+}
