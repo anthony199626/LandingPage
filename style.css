@@ -1,4 +1,4 @@
-#Prueba1{
+#Skill1{
     background-image: url("Fondo.gif");
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,30 +10,33 @@
 
 }
 
-#Prueba2{
+#Skill2{
   
     height: 100%; 
     width: 100%; 
     background-color: #f1601c; 
     
 }
-#Prueba3{
-    background-color: #ffffff;
+#Skill3{
+    background-color: #1c31f3;
     height:100%;
-    
-
 }
 
-#Prueba4{
-    background-color: #1c31f3;
-    height:245px;
+#Skill4{
+    background-color: #f1601c;
+    height:100%;
+}
+#Skill5{
+    background-color: #1b1a1a;
+    color: rgb(235, 235, 235);
+    height:100%;
 }
 
 #TextMainNombre{
    color: rgb(235, 235, 235);
    margin-top: 150px;
    
-   font-size: 80px
+   font-size: 80px;
 }
 
 #TextMainFrase{
@@ -65,18 +68,106 @@
 #TextDesarrollo1{
     color: rgb(235, 235, 235);
     margin-top: 100px;
-    font-size: 60px
+    font-size: 60px;
 }
 #TextDesarrollo2{
-    color: rgb(41, 32, 32);
+    color: rgb(235, 235, 235);
     margin-top: 30px;
-    font-size: 30px
+    font-size: 30px;
 }
 #TextDesarrollo3{
-    color: rgb(41, 32, 32);
-    
-    font-size: 30px
+    color: rgb(235, 235, 235);
+    font-size: 30px;
 }
- #imgDesarrollo{
-     margin: 15%
+
+
+#imgDesarrolloWeb{
+    margin: 15%;
+}
+
+#TextApp1{
+    color: rgb(235, 235, 235);
+    margin-top: 100px;
+    font-size: 60px;
+    margin-left: 40px;
+}
+#TextApp2{
+    color: rgb(235, 235, 235);
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 40px;
+
+}
+#TextApp3{
+    color: rgb(235, 235, 235);
+    font-size: 30px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+    
+}
+
+ #imgDesarrolloDesktop{
+    margin-left: -60px;
+    margin-top: 15%;
  }
+
+
+ #TextCommunity1{
+    color: rgb(235, 235, 235);
+    margin-top: 100px;
+    font-size: 60px;
+    
+ }
+ #TextCommunity2{
+    color: rgb(235, 235, 235);
+    margin-top: 30px;
+    font-size: 30px;
+    
+ }
+ #TextCommunity3{
+    color: rgb(235, 235, 235);
+    font-size: 30px;
+    
+    margin-bottom: 80px;
+ }
+
+ #imgCommunity{
+    margin-top: 80px;
+ }
+
+
+#iconFb{
+    font-size: 20px;
+    transition: 300ms;
+    margin-top: 20px;
+}
+#iconFb:hover{
+    transition: 300ms;
+    font-size: 22px;
+}
+#iconWs{
+    font-size: 20px;
+    transition: 300ms;
+    margin-top: 20px;
+}
+#iconWs:hover{
+    transition: 300ms;
+    font-size: 22px;
+}
+
+#iconMail{
+    font-size: 20px;
+    transition: 300ms;
+    margin-top: 20px;
+}
+#iconMail:hover{
+    transition: 300ms;
+    font-size: 22px;
+}
+
+
+
+#derechosReservados{
+    font-size: 20px;
+    margin-top: 20px;
+}
