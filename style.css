@@ -11,15 +11,10 @@
 }
 
 #Prueba2{
-    
-    
-    
-    
+  
     height: 100%; 
     width: 100%; 
     background-color: #f1601c; 
-    
-
     
 }
 #Prueba3{
@@ -37,13 +32,51 @@
 #TextMainNombre{
    color: rgb(235, 235, 235);
    margin-top: 150px;
-   margin-left: -100px;
+   
    font-size: 80px
 }
 
 #TextMainFrase{
     color: rgb(235, 235, 235);
     margin-top: 30px;
-    margin-left: -80px;
+    
+}
+
+ 
+ #imgCafe{
+    margin-left: 80px;
+    
  }
  
+ #imgCompuCafe{
+    margin-left: 30px;
+    margin-top: 10px;
+
+ }
+ #imgCompuCommu{
+    
+    margin-bottom: 10px;
+
+ }
+ #imgMegafono{
+    margin-right: 1px;
+
+ }
+#TextDesarrollo1{
+    color: rgb(235, 235, 235);
+    margin-top: 100px;
+    font-size: 60px
+}
+#TextDesarrollo2{
+    color: rgb(41, 32, 32);
+    margin-top: 30px;
+    font-size: 30px
+}
+#TextDesarrollo3{
+    color: rgb(41, 32, 32);
+    
+    font-size: 30px
+}
+ #imgDesarrollo{
+     margin: 15%
+ }
