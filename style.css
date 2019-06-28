@@ -1,9 +1,9 @@
 #Prueba1{
-    background-image: url("PhotoMain.jpg");
+    background-image: url("Fondo.gif");
     background-repeat: no-repeat;
     background-size: cover;
     /*background-color: #ffffff;*/
-    height:800px;
+
     padding-right: 0px;
     padding-left: 0px;
     
@@ -16,9 +16,9 @@
     
     
     height: 100%; 
-    width: 50%; 
+    width: 100%; 
     background-color: #f1601c; 
-    float: left;
+    
 
     
 }
@@ -33,3 +33,17 @@
     background-color: #1c31f3;
     height:245px;
 }
+
+#TextMainNombre{
+   color: rgb(235, 235, 235);
+   margin-top: 150px;
+   margin-left: -100px;
+   font-size: 80px
+}
+
+#TextMainFrase{
+    color: rgb(235, 235, 235);
+    margin-top: 30px;
+    margin-left: -80px;
+ }
+ 
