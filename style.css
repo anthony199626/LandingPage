@@ -1,11 +1,13 @@
+body{
+    overflow-x:hidden;
+}
 #Skill1{
     background-image: url("Fondo.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    /*background-color: #ffffff;*/
+    margin-top: -24px;
 
-    padding-right: 0px;
-    padding-left: 0px;
+
     
 
 }
