@@ -13,24 +13,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--FontAwesome-->
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    
-    
+    <!--Animate.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!--Jquery.js-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!--Aniview.js-->
+    <script src="https://unpkg.com/jquery-aniview/dist/jquery.aniview.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.aniview').AniView();
+        });
+    </script>
+}
 </head>
 <body> 
-    
     <div id="Skill1" class="container-fluid">
         <div class="container">
             <div class="row">
                 <div  class="col-12 col-md-6">
-                    <h1 id="TextMainNombre">Dui Developer</h1>
-                    <h2 id="TextMainFrase">"Mantente creando, no importa qué, &nbsp pero no te detengas." </h2>
+                    <h1 class="animated fadeIn slow" id="TextMainNombre">Dui Developer</h1>
+                    <h2 class="animated fadeIn slow" id="TextMainFrase">"Mantente creando, no importa qué, &nbsp pero no te detengas." </h2>
                     
                 </div>
                 <div class="d-none d-xl-block col-md-6">
-                    <img id="imgCafe" src="RecursosPagina\CafeCode.png" alt="Programador">
-                    <img id="imgCompuCafe" src="RecursosPagina\Computadoracode.png" alt="Programador">
-                    <img id="imgCompuCommu" src="RecursosPagina\ComputadoraCommunity.png" alt="community manager ">
-                    <img id="imgMegafono" src="RecursosPagina\MegafonoCommunity.png" alt="community manager ">
+                    <img class="animated zoomIn delay-1s" id="imgCafe" src="RecursosPagina\CafeCode.png" alt="Programador">
+                    <img class="animated slideInRight " id="imgCompuCafe" src="RecursosPagina\Computadoracode.png" alt="Programador">
+                    
+                    <img class="animated slideInLeft" id="imgCompuCommu" src="RecursosPagina\ComputadoraCommunity.png" alt="community manager ">
+                    <img class="animated zoomIn delay-1s" id="imgMegafono" src="RecursosPagina\MegafonoCommunity.png" alt="community manager ">
                 </div>
             </div>
         </div>
@@ -73,7 +83,7 @@
                         <h3 id="TextCommunity3">Dejalo en mis manos, yo los atraeré y los enviare a ti.</h3>
                     </div>
                     <div class="d-none d-xl-block col-md-6">
-                        <img id="imgCommunity" src="RecursosPagina\CommunityManager.png" alt="Community manager">
+                        <img class="aniview" data-av-animation="bounceInRight" id="imgCommunity" src="RecursosPagina\CommunityManager.png" alt="Community manager">
                     </div>
                 </div>
         </div>
@@ -83,7 +93,7 @@
                     <div class="row">
                         <div id="iconFb"  class="col-5 col-md-5">
                             <i class="fab fa-facebook-f"> </i> 
-                            <a href="https://www.facebook.com/AnthonyAndres01"> Facebook</a> <br>
+                            <a href="https://www.facebook.com/DuiDeveloper-852763398413161/"> Facebook</a> <br>
                             
                         </div>
                         <div id="iconWs"  class="col-4 col-md-4">
@@ -104,8 +114,9 @@
     
 
     <!--Bootstrap 4 js -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+
 </body>
 </html>
