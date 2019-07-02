@@ -11,6 +11,36 @@ body{
     
 
 }
+#AboutMe{
+    background-color: #1c31f3;
+    
+}
+#acercaDeMiTitulo{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(235, 235, 235);
+    font-size: 80px;
+}
+#textAcercaDeMi{
+    
+    height:100%;
+    color: rgb(235, 235, 235);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+    
+    
+}
+
+
+#webLogos{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+
 
 #Skill2{
   
@@ -39,6 +69,7 @@ body{
    margin-top: 150px;
    
    font-size: 80px;
+   
 }
 
 #TextMainFrase{
