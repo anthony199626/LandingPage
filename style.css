@@ -1,3 +1,43 @@
+/*Mobile query*/
+@media only screen and (max-width: 600px) {
+    #Skill1 h1{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    #Skill1 h2{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+
+
+    }
+
+    #Skill1 #imagenesSkill1{
+        display: none;
+
+    }
+} 
+/*
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
+/*************************************************/
+
+
+
 body{
     overflow-x:hidden;
 }
@@ -5,16 +45,42 @@ body{
     background-image: url("Fondo.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -24px;
-
-
-    
 
 }
 #AboutMe{
     background-color: #1c31f3;
     
 }
+#franjaConoceme{
+    background: #1b1a1a;
+}
+
+#franjaConoceme h1{
+    color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+#franjaServicio{
+    background: #1b1a1a;
+
+}
+#franjaServicio h1{
+    color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+#franjaPortafolio{
+    background: #1b1a1a;
+
+}
+#franjaPortafolio h1{
+    color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+
+
+
 #acercaDeMiTitulo{
     margin-top: 30px;
     text-align: center;
@@ -32,12 +98,12 @@ body{
     
 }
 
-
 #webLogos{
     margin-left: auto;
     margin-right: auto;
     display: block;
     margin-bottom: 30px;
+    
 }
 
 
@@ -63,11 +129,43 @@ body{
     color: rgb(235, 235, 235);
     height:100%;
 }
+#trabajosHechos{
+    background-color: #1c31f3;
+    color: rgb(235, 235, 235);
+    height:100%;
+    
+}
+
+#cartas{
+    margin-top: 300px;
+
+}
+#cardEasy{
+    background-color: #1c31f3;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height:100%;
+    border: 0;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#titleCard1{
+    color: rgb(235, 235, 235);
+    text-align: center;
+}
+#textCard1{
+    color: rgb(235, 235, 235);
+    font-size: 18px;
+}
+
+
+
+
 
 #TextMainNombre{
    color: rgb(235, 235, 235);
    margin-top: 150px;
-   
    font-size: 80px;
    
 }
